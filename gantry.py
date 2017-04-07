@@ -1,4 +1,10 @@
 #!/usr/bin/python
+
+# Software Safety
+# Assignment 1 
+# Gantry Controller
+# Benjamin Bergens, Niklas Simons, Marcus Norrgård
+
 import sys
 import argparse
 import random
