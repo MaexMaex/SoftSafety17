@@ -156,7 +156,7 @@ def motorR(x_now):
 # s_x can fail and produce a number greater than 10, gantry bounds are 0 - 10
 def s_x(x_now, direction):
 	if x_now=="start" and direction=="":
-		x_now_init = random.randint(0,11)	
+		x_now_init = random.randint(0,15)	
 		return x_now_init
 	if direction=="L":
 		#Sensor can get stuck, if it recovers after 3 loops the gantry shall continue, othervise it shall halt.
